@@ -195,7 +195,7 @@ header {
     font-weight: bold;
 }
 .default .section-title {
-    font-size: 25px;
+    font-size: 28px;
 }
 .default .section-body {
     max-width: 1140px;
@@ -605,6 +605,7 @@ header {
 }
 .section-box .section-box--info {
     width: 400px;
+    margin-left: 65px;
 }
 .section-box--check img {
     padding: 0px 20px;
@@ -664,4 +665,220 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.section-facts {
+    display: flex;
+    margin-top: 60px;
+}
+.section-facts .section-fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 0px 30px;
+}
+.section-fact h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #b28756;
+}
+.section-fact .bar-fact {
+    width: 20px;
+    height: 4px;
+    background-color: #777;
+    margin-bottom: 8px;
+    margin-top: 3px;
+}
+.section-fact h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.section-fact p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+
+.section-tell {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.tell-body {
+    display: inline-flex;
+    justify-content: center;
+    width: 100vw;
+    max-width: 1140px;
+    margin: 20px 0px;
+
+}
+.section-tell .tell-aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.tell-aboutus img {
+    width: 20px;
+    margin-right: 15px;
+}
+.tell-aboutus p {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #aaa;
+
+}
+.section-tell {
+    border-bottom: 1px solid #ddd;
+}
+
+.section-tell .tell-social {
+    display: flex;
+}
+.tell-icons {
+    padding: 0px 20px;
+}
+.tell-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-right: 5px;
+    background-color: #00acee;
+}
+.section-tell .tell-icons .i2 {
+    background-color: #0e76a8;
+}
+.section-tell .tell-icons .i3 {
+    background-color: #3b5998;
+}
+.section-tell .tell-icons .i4 {
+    background-color: #db4a39;
+}
+.section-tell .tell-icons .i5 {
+    background-color: #c8232c;
+}
+.tell-icons  {
+    font-size: 10px;
+    font-weight: bold;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+form input,
+form textarea {
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid #AAA;
+    min-width:255px;
+    margin-top:50px;
+    background-color: transparent;
+    text-decoration: none;
+    line-height: 30px;
+    resize: none;
+    outline: 0;
+}
+form input::placeholder,
+form textarea::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+form textarea::placeholder {
+    font-size: 18px;
+    padding-top: 65px;
+}
+form textarea {
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+}
+.section-form{
+    width: 100vw;
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subject{
+    width: 100%;
+}
+#name {
+    margin-right: 20px;
+}
+.section-form a {
+    margin-top: 50px;
+}
+
+
+.section-map {
+    background-image: url(/assets/images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.section-map--info {
+width: 50%;
+padding: 30px;
+background-color: #fff;
+color: #000;
+}
+
+
+
+.section-map--infos {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.section-map--icon {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #aaa;
+    border-radius: 17px;
+    margin-right: 20px;
+}
+.section-map--icon img {
+    width: 20px;
+    height: auto;
 }
