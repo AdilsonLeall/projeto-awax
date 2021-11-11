@@ -1193,3 +1193,220 @@ footer {
 
 
 /* MEDIA MOBILE */
+
+
+@media (max-width:450px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 40px;
+        margin-right: 30px;
+
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0px;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: none;
+    }
+    .menu li a:hover,
+    .menu .active a {
+    border-bottom:none;
+    color: #b28756;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+    .banner h2 {
+        font-size: 20px;
+    }
+    .section-aboutus {
+        flex-direction: column;
+    }
+    .section-aboutus--left {
+        margin: 0px 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .section-aboutus--right {
+        width: auto;
+    }
+    .section-aboutus--right span {
+        font-size: 25px;
+    }
+    .section-aboutus--right .play {
+        font-size: 70px;
+        margin-bottom: -15px;
+    }
+
+
+    .section-services {
+        flex-wrap: wrap;
+        padding: 0px 80px;
+    }
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .section-service {
+        border: none;
+    }
+    .section-service:first-child {
+        border: none;
+    }
+
+
+
+   .section-projects--filters {
+    margin: 0px 20px;
+    padding: 0px 10px;
+    }
+
+
+    .section-team {
+        max-width: 280px;
+    }
+    .patrocinios .patrocinios-logos {
+        width: 300px;
+        overflow: hidden;
+    }
+    .patrocinios-logos img {
+        width: 200px;
+        height: 70px;
+        margin: 0px 30px;
+    }
+
+
+    .section-price {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section-price--item {
+        min-width: calc (50% - 30px);
+        margin: 30px;
+    }
+
+
+    .section-box {
+        flex-direction: column;
+    } 
+    .section-box--image {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .section-box .section-box--info {
+        width: 350px;
+        margin: 0pc 30px;
+    }
+    .body-facts {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 250px;
+    }
+    .section-facts {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 250px;
+        margin-top: 0;
+    }
+    .section-facts .section-fact {
+        min-width: 40%;
+        margin-bottom: 40px;
+        padding: 0px 100px;
+        margin: 20px 0px;
+    }
+
+    .tell-body {
+        flex-direction: column;
+    }
+    .tell-aboutus {
+        margin-bottom: 20px;
+    }
+    .tell-social {
+        align-items: center;
+        justify-content: center;
+    }
+    .tell-icons {
+        padding: 0px 10px;
+    }
+
+
+    form {
+        width: 380px;
+    }
+
+
+
+
+
+
+    .section-map {
+        padding: 0;
+        padding-bottom: 300px;
+    }
+    .section-map--area {
+        width: auto;
+    }
+    .section-map--info {
+        width: auto;
+    }
+
+
+
+    .footer-area {
+        height: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      .footer-area1 {
+        /*
+        padding-left: 10px;
+        margin-top: 10px;*/
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 30px;
+      }
+      .footer-copy {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin: auto;
+      } 
+
+    
+      .footer-area2 {
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 0px 40px;
+      }
+    
+      .footer-area3 {
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+      form input {
+          margin-top: 10px;
+      }
+}
